@@ -15,7 +15,7 @@ public class Demo {
 			System.out.println("go");
 		}
 	}
-	static void aannemen(Deelnemer deelnemer) {
+	static void aannemen(Deelnemer deelnemer) { // mooie methode
 		if(deelnemer.geschiktePersoonlijkheid && deelnemer.technischeUitslag > 50 && deelnemer.leeftijd < 35) {
 			System.out.println("U bent aangenomen");
 		}else {
